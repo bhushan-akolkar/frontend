@@ -39,9 +39,9 @@ function LandingPage() {
       <section id="home" className="container">
       <div className="content">
         {/* <h2>Home</h2> */}
-        <b>BankerEaze: Banking Compliance Chatbot</b>
+        <b>RFP Analyzer: RFP Document Analyze Assistant</b>
         <p>
-          Welcome to Bankereaze, your banking compliance chatbot solution. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit leo a velit consectetur egestas.
+          Welcome to RFP Analyzer, your RFP document analyze assistant solution. 
         </p>
         <a className="button" href="/login">Watch a demo</a>
       </div>

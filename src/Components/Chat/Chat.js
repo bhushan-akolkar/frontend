@@ -245,13 +245,9 @@ const ChatUI = () => {
         text: (
           <div>
             <h3>Result:</h3>
-            <ul>
-              {Result.split("-")
-                .filter(result => result.trim() !== '')
-                .map((result, index) => (
-                  <li key={index}>{result}</li>
-                ))}
-            </ul>
+            <p>
+              {Result}
+            </p>
             <h3>Source Document:</h3>
             <table className="table"> 
               <thead className="table-header"> 
